@@ -1,0 +1,34 @@
+header {
+  padding: 8% 5%;
+  margin: 0 15%;
+  z-index: 2;
+  position: relative;
+  border-bottom: 1px solid #333333;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 6rem;
+  color: #222223;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 5rem;
+  padding-bottom: 5%;
+  color: #222223;
+}
+
+p {
+  font-size: 1.2rem;
+  /* padding-top: 7%; */
+  font-weight: 300;
+}
+
+#header-subtext {
+  line-height: 25px;
+}
+
+#callTA {
+  padding-top: 4%;
+}
