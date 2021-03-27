@@ -68,7 +68,7 @@
   mix-blend-mode: soft-light;
   border-radius: var(--size);
   filter: blur(calc(var(--size) / 6));
-  z-index: -1;
+  z-index: 0;
   background: rgb(249,248,113);
   background: linear-gradient(135deg, rgba(249,248,113,1) 28%, rgba(255,255,255,0) 99%);
 }
