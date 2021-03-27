@@ -12,12 +12,13 @@
   z-index: 1;
   /* background: rgba(132, 94, 194, 1); */
   background: linear-gradient(135deg, rgba(249,248,113,1) 28%, rgba(255,255,255,0) 99%);
+  overflow: hidden;
 }
 
 .projects {
   position: relative;
   z-index: 2;
-  padding: 3% 4%;
+  padding: 5% 0;
 }
 
 .project-card {
@@ -43,7 +44,7 @@
   height: 450px;
   overflow: hidden;
   border-radius: 30px;
-  margin: 10px 150px;
+  margin: 0 auto;
 }
 
 .mobile a img {
@@ -52,7 +53,8 @@
 }
 
 .description {
-  padding: 1% 5% 1% 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,7 +84,7 @@
 }
 
 .dev-icons i {
-  padding-right: 2%;
+  padding-right: 5%;
 }
 
 .project-links {

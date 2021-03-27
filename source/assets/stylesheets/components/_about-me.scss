@@ -1,7 +1,6 @@
 .about {
-  display: flex;
-  padding: 7% 0 4% 0;
-  margin: 0 15%;
+  padding: 7% 0 7% 0;
+  margin: 0 auto;
   z-index: 2;
   position: relative;
   border-top: 1px solid #333333;
@@ -10,17 +9,21 @@
 }
 
 .about-me {
+  display: flex;
+}
+
+.bio {
   padding-right: 15%;
 }
 
-.about-me h3 {
+.bio h3 {
   font-size: 3rem;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 2%;
 }
 
-.about-me p {
+.bio p {
   font-size: 1rem;
   padding-top: 2%;
 }
@@ -35,4 +38,9 @@
   padding-top: 5%;
   font-size: 1.2rem;
   margin-bottom: 0;
+}
+
+.skills {
+  display: flex;
+  padding-top: 3%;
 }

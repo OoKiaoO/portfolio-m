@@ -33,8 +33,8 @@ a {
   color: #333333;
 }
 
-/* Footer */
-
-.footer {
-  text-align: right;
+#footer ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
