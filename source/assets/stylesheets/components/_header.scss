@@ -1,5 +1,20 @@
+@media only screen and (max-width: 700px) {
+  header {
+    margin: 0 5%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
 header {
-  padding: 8% 5%;
+  padding: 8% 0;
   margin: 0 15%;
   z-index: 2;
   position: relative;
@@ -10,6 +25,7 @@ h1 {
   font-weight: 700;
   font-size: 5rem;
   color: #222223;
+  padding-bottom: 2%;
 }
 
 h2 {
