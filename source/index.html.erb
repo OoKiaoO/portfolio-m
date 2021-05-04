@@ -20,6 +20,33 @@
 <main>
   <div class="container">
     <div id="projects" class="projects">
+      <div class="project-card row">
+        <div class="description col-12 col-xl-6">
+          <h3 class="project-title">Tunes</h3>
+          <div class="project-links">
+            <% link_to "https://spotifytunes.netlify.app/" do %>
+              <i class="fas fa-link"></i></i>
+            <% end %>
+            <% link_to "https://github.com/OoKiaoO/Tunes" do %>
+              <i class="devicon-github-original"></i>
+            <% end %>
+          </div>
+          <div class="project-description">
+            <p><strong>Solo Project</strong></p>
+            <p>Using React & Spotify API, Tunes lets you search for your favourite songs, create custom playlists and save them on your Spotify account.</p>
+            <div class="dev-icons">
+              <i class="devicon-javascript-plain"></i>
+              <i class="devicon-react-original"></i>
+              <i class="devicon-css3-plain"></i>
+            </div>
+          </div>
+        </div>
+        <div class="screenshot mockup col-12 col-xl-6">
+          <% link_to "https://spotifytunes.netlify.app/" do %>
+            <%= image_tag "tunes.png" %>
+          <% end %>
+        </div>
+      </div>
 
       <div class="project-card row">
         <div class="description col-12 col-xl-6">
