@@ -22,6 +22,34 @@
     <div id="projects" class="projects">
       <div class="project-card row">
         <div class="description col-12 col-xl-6">
+          <h3 class="project-title">Insta-clone</h3>
+          <div class="project-links">
+            <% link_to "https://clone-gram.netlify.app/login" do %>
+              <i class="fas fa-link"></i></i>
+            <% end %>
+            <% link_to "https://github.com/OoKiaoO/insta-clone" do %>
+              <i class="devicon-github-original"></i>
+            <% end %>
+          </div>
+          <div class="project-description">
+            <p><strong>Solo Project</strong></p>
+            <p>To further familiarise myself with the functional side of React, I built a simple Instagram app clone with basic functions: the app handles login and signup and relies on <strong>Firebase</strong> authentication. It is built entirely in <strong>React</strong> while styling and layout are done with <strong>TailwindCss</strong>.</p>
+            <div class="dev-icons">
+              <i class="devicon-javascript-plain"></i>
+              <i class="devicon-react-original"></i>
+              <i class="devicon-firebase-plain-wordmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="screenshot mockup col-12 col-xl-6">
+          <% link_to "https://clone-gram.netlify.app/login" do %>
+            <%= image_tag "insta-clone.png" %>
+          <% end %>
+        </div>
+      </div>
+
+      <div class="project-card row">
+        <div class="description col-12 col-xl-6">
           <h3 class="project-title">Tunes</h3>
           <div class="project-links">
             <% link_to "https://spotifytunes.netlify.app/" do %>
@@ -61,7 +89,7 @@
           </div>
           <div class="project-description">
             <p><strong>Team Project</strong></p>
-            <p><strong>Main Role:</strong> Front-end development, UI/UX Desing</p>
+            <p><strong>Main Role:</strong> Front-end development, UI/UX Design</p>
             <p>Book a Cook is an Airbnb-style app that connects culinary professionals with on-demand requests from customers and brings their business directly to their homes.</p>
             <div class="dev-icons">
               <i class="devicon-rails-plain-wordmark"></i>
@@ -77,40 +105,6 @@
           <% link_to "https://bookachef.herokuapp.com/" do %>
             <%= image_tag "BookaCook.png" %>
           <% end %>
-        </div>
-      </div>
-
-      <div class="project-card row">
-        <div class="description col-12 col-xl-6">
-          <h3 class="project-title">Nicotine Derby</h3>
-          <div class="project-links">
-            <% link_to "http://www.nicotinederby.money/" do %>
-              <i class="fas fa-link"></i></i>
-            <% end %>
-            <% link_to "https://github.com/OoKiaoO/Habitat" do %>
-              <i class="devicon-github-original"></i>
-            <% end %>
-          </div>
-          <div class="project-description">
-            <p><strong>Team Project</strong></p>
-            <p><strong>Main Role:</strong> Front-end development, UI/UX Desing, Authentication</p>
-            <p>A mobile-first application designed to help smokers reduce the number of cigarettes smoked.</p>
-            <div class="dev-icons">
-              <i class="devicon-rails-plain-wordmark"></i>
-              <i class="devicon-javascript-plain"></i>
-              <i class="devicon-sass-original"></i>
-              <i class="devicon-bootstrap-plain-wordmark"></i>
-              <i class="devicon-postgresql-plain-wordmark"></i>
-              <i class="devicon-heroku-original-wordmark"></i>
-            </div>
-          </div>
-        </div>
-        <div class="project-mockup col-12 col-xl-6">
-          <div class="mobile mockup">
-            <% link_to "http://www.nicotinederby.money/" do %>              
-              <%= image_tag "ND-profile.PNG" %>
-            <% end %>
-          </div>
         </div>
       </div>
     </div>
@@ -135,6 +129,7 @@
             <i class="devicon-javascript-plain"></i>
             <i class="devicon-sass-original"></i>
             <i class="devicon-bootstrap-plain-wordmark"></i>
+            <i class="devicon-react-original"></i>
           </div>
         </div>
         <div class="skill-title col-12 col-lg-4">
@@ -144,6 +139,7 @@
             <i class="devicon-rails-plain-wordmark"></i>
             <i class="devicon-postgresql-plain-wordmark"></i>
             <i class="devicon-heroku-original-wordmark"></i>
+            <i class="devicon-firebase-plain-wordmark"></i>
           </div>
         </div>
         <div class="skill-title col-12 col-lg-4">

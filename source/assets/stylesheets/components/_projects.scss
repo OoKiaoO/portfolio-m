@@ -7,6 +7,7 @@
 .project-card {
   display: flex;
   padding: 5% 0;
+  text-align: center;
 }
 
 .project-mockup {
@@ -14,17 +15,20 @@
 }
 
 .screenshot img {
-  width: 600px;
-  height: 400px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5px;
+  box-shadow: 2px 2px 13px -2px #00000061;
 }
 
-.mobile {
-  width: 250px;
-  height: 450px;
-  overflow: hidden;
-  border-radius: 30px;
-  margin: 0 auto;
-}
+// .mobile {
+//   width: 250px;
+//   height: 450px;
+//   overflow: hidden;
+//   border-radius: 30px;
+//   margin: 0 auto;
+// }
 
 .mobile a img {
   width: 250px;
@@ -60,6 +64,7 @@
   display: flex;
   padding: 2% 0;
   font-size: 2rem;
+  justify-content: center;
 }
 
 .dev-icons i {
@@ -86,10 +91,6 @@
 
   .description {
     text-align: center;
-  }
-
-  .dev-icons {
-    justify-content: center;
   }
 
   .bio {
